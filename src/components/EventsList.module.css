@@ -1,0 +1,28 @@
+.events{
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  width: 38rem;
+}
+
+.list{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+}
+
+.item{
+  margin-bottom: 1.5rem;
+}
+
+.item a{
+  background-color: #31302EFF;
+  display: flex;
+  color: inherit;
+  border-radius: 4px;
+}
+
+.item img{
+  width: 12rem;
+  margin-right: 1rem;
+}

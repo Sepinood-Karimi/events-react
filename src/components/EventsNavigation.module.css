@@ -1,0 +1,21 @@
+.header{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+.list{
+    display: flex;
+    gap:1rem;
+}
+
+.list a{
+    background-color: #8A8784FF;
+    color: #1F1D1BFF;
+    padding: 0.5rem 1.5rem;
+    border-radius: 4px;
+}
+
+.list a:hover,.list a.active{
+    background-color: #F9C762FF;
+}

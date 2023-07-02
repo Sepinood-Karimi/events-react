@@ -1,0 +1,14 @@
+.header{
+  margin: 2rem 20rem;
+}
+.list{
+  display: flex;
+  gap: 1rem;
+}
+.list a{
+  color: #FBD997FF;
+}
+
+.list a:hover , .list a.active{
+  color: #FAB833FF;
+}
