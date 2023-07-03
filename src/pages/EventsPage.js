@@ -13,7 +13,9 @@ export const eventsLoader = async () => {
   if (response.ok) {
     return response;
   } else {
-    throw new Error("We could not fetch data!");
+    throw new Response(JSON.stringify({ message: "Could not fetch events" }), {
+      status: 500,
+    });
   }
 };
 export default EventsPage;
