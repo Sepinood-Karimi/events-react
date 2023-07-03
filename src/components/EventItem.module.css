@@ -15,6 +15,10 @@
   align-items: center;
 }
 
+.actions a, .actions button{
+  font: inherit;
+}
+
 .actions button{
   background-color: transparent;
   border: none;
