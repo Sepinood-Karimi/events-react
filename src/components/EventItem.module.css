@@ -17,10 +17,14 @@
 
 .actions a, .actions button{
   font: inherit;
+  color: #f9c762;
+}
+
+.actions a:hover , .actions a:focus , .actions button:hover , .actions button:focus{
+  color: #f6ad1b;
 }
 
 .actions button{
   background-color: transparent;
   border: none;
-  color: #FAB833FF;
 }
