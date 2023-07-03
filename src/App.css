@@ -5,6 +5,13 @@
 a{
   text-decoration: none;
 }
+a:hover , a:active{
+  cursor: pointer;
+}
 list{
   list-style: none;
+}
+
+button:hover ,button:focus{
+  cursor: pointer;
 }
