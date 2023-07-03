@@ -4,12 +4,17 @@
 
 a{
   text-decoration: none;
+  font: inherit;
 }
 a:hover , a:active{
   cursor: pointer;
 }
 list{
   list-style: none;
+}
+
+button{
+  font: inherit;
 }
 
 button:hover ,button:focus{
