@@ -1,5 +1,7 @@
 .header{
   margin: 2rem 20rem;
+  display: flex;
+  justify-content: space-between;
 }
 .list{
   display: flex;
